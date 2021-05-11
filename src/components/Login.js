@@ -6,9 +6,9 @@ function Login() {
         <Container>
             <CTA>
                 <CTALogoOne src="/images/cta-logo-one.svg" alt=""/>
-                <SignUp>Get all there</SignUp>
+                <SignUp >Get all there</SignUp>
                 <Description>
-                    loreminfk fk f k f k fjnhjjh fv jhbxjnc jshbaod vibfvf
+                   the amazing expierience with Disney plus
                 </Description>
                 <CTALogoTwo src="/images/cta-logo-two.png" alt="two"/>
             </CTA>

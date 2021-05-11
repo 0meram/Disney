@@ -90,7 +90,11 @@ const signOut = () => {
                     <span>SERIES</span>
                 </a>
             </NavMenu>
-            <UserImg src="/images/me.jpeg" alt="omer" onClick={signOut}/>
+            <LoginContainer>
+                            <Login onClick={signOut}>log out</Login>
+                    </LoginContainer>
+                    <br/>
+            <UserImg src="/images/me.jpeg" alt="omer"/>
             </>}
         </Nav>
     )
@@ -164,6 +168,7 @@ width: 48px;
 height: 48px;
 border-radius: 50%;
 cursor: pointer;
+margin:10px
 
 `;
 
